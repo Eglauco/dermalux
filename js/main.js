@@ -37,10 +37,6 @@
      NAV + MENU MOBILE + ÂNCORAS
      ============================================================ */
   var nav = document.getElementById("nav");
-  window.addEventListener("scroll", function () {
-    nav.classList.toggle("is-scrolled", window.scrollY > 50);
-  }, { passive: true });
-
   var burger = document.getElementById("navBurger");
   var mobmenu = document.getElementById("mobmenu");
   function closeMenu() {

@@ -142,14 +142,7 @@ address { font-style: normal; }
    NAV
    ============================================================ */
 .nav {
-  position: fixed; top: 0; left: 0; right: 0; z-index: 120;
-  transition: background-color 0.4s ease, border-color 0.4s ease, backdrop-filter 0.4s ease;
-  border-bottom: 1px solid transparent;
-}
-.nav.is-scrolled {
-  background: rgba(6, 9, 16, 0.72);
-  backdrop-filter: blur(14px);
-  border-bottom-color: var(--line);
+  position: absolute; top: 0; left: 0; right: 0; z-index: 120;
 }
 .nav__inner {
   max-width: var(--container);
